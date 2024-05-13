@@ -1,0 +1,71 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); */
+body {
+    background-color: black;
+
+}
+
+.parent {
+    margin: 235px;
+    padding: 162px;
+
+}
+
+.card {
+    border: 2px solid black;
+    height: 110vh;
+    width: 35vw;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.image {
+    margin: 10px;
+    padding: px;
+
+}
+
+.image img {
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 40px;
+    font-family: 'honk', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.capsules {
+    margin: 0px;
+    padding: 0px 30px;
+}
+
+.capsules span {
+    display: inline-flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 5px;
+    width: 35px;
+    text-align: center;
+    color: grey;
+    padding: 10px;
+    font-size: 15px ;
+    font-weight: bold;
+}
+.content p{
+    color: grey;
+    font-size: 20px;
+}
+.end span{
+    border: 0px solid black;
+    border-radius: 30px;
+    padding: 12px;
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+
+}
+.end{
+    padding: 41px 109px;
+    margin: 52px;
+}
