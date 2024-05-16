@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+
+}
+
+.logo img {
+
+    height: 56px;
+    width: 165px;
+}
+
+.right ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 56px;
+}
+
+.right ul li {
+    cursor: pointer;
+}
+
+.head {
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+
+}
+
+.step1 {
+
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 18px;
+}
+
+.step2 {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.step3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px solid black;
+    background-color: rgb(6, 82, 215);
+    border-radius: 15px;
+    padding: 16px;
+}
+
+.mainbody {
+    margin: 62px;
+    padding: 45px;
+}
+
+.cards {
+    display: flex;
+    /* justify-content: space-around; */
+    align-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: 130px;
+    font-size: 50px;
+
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.items {
+    display: flex;
+    border: 0px solid black;
+    height: 190px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(212, 206, 206, 0.68);
+
+
+
+
+}
+.items p{
+    text-align: center;
+}
+
+.cards3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.cards4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
