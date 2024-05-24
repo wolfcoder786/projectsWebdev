@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;
+    
+}
+.main{
+    background-image: url("assets/Images/back.jpg");
+    height: 790px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1400px ,100vw);
+
+}
+.main .box{
+    height: 790px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+
+
+}
+nav{
+    max-width: 68vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+
+
+}
+nav img{
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.content1{
+    height: 100%;
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    padding: 0 30px;
+}
+.line1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px;
+    
+}
+.line2{
+    font-size: 32px;
+    text-align: center;
+    padding: 18px;
+}
+.line3{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    height: 10px;
+    padding: 40px;
+}
+#Register{
+    display: ;
+    height: 56px;
+    width: 368.75px;
+    font-size: 20px;
+    color: white;
+   
+}
