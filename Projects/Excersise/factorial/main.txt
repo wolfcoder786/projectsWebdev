@@ -1,0 +1,2 @@
+Find factorial of a number using loop and reduce
+js file
